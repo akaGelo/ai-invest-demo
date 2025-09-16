@@ -1,0 +1,88 @@
+{
+  "date": "2025-09-16",
+  "timestamp": "2025-09-16T10:30:00+03:00",
+  "account_id": "2281616680",
+  "portfolio": {
+    "positions": [
+      {
+        "instrument_id": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+        "instrument_name": "МТС",
+        "instrument_ticker": "MTSS",
+        "instrument_type": "share",
+        "isin": "RU0007775219",
+        "quantity": 4,
+        "quantity_lots": 40,
+        "average_price": 213.28,
+        "current_price": 213.40,
+        "market_value": 853.60,
+        "expected_yield": 5.00,
+        "expected_yield_percentage": 0.05,
+        "currency": "rub",
+        "blocked": false
+      }
+    ],
+    "cash": {
+      "currency": "rub",
+      "amount": 1465.59,
+      "blocked": 0
+    },
+    "total_portfolio_value": 10001.59,
+    "initial_investment": 10000.00,
+    "total_yield": 1.59,
+    "total_yield_percentage": 0.02,
+    "daily_yield": 5.00,
+    "daily_yield_percentage": 0.05
+  },
+  "transactions_today": [
+    {
+      "order_id": "RIN22PCQ5ZZN26RBFSDP",
+      "instrument": "MTSS",
+      "type": "buy",
+      "quantity": 4,
+      "price": 213.28,
+      "total": 853.12,
+      "commission": 0.40,
+      "status": "executed"
+    }
+  ],
+  "portfolio_allocation": {
+    "by_type": {
+      "shares": 85.34,
+      "etf": 0,
+      "bonds": 0,
+      "cash": 14.66
+    },
+    "by_sector": {
+      "telecom": 85.34,
+      "finance": 0,
+      "energy": 0,
+      "technology": 0,
+      "other": 0,
+      "cash": 14.66
+    },
+    "by_strategy": {
+      "blue_chips": 0,
+      "dividend_stocks": 85.34,
+      "growth_stocks": 0,
+      "etf": 0,
+      "bonds": 0,
+      "cash": 14.66
+    }
+  },
+  "target_allocation": {
+    "blue_chips": 40,
+    "etf": 20,
+    "dividend_stocks": 20,
+    "growth_stocks": 15,
+    "bonds": 5
+  },
+  "metrics": {
+    "positions_count": 1,
+    "average_position_size": 853.60,
+    "largest_position": "MTSS",
+    "largest_position_weight": 85.34,
+    "cash_percentage": 14.66,
+    "invested_percentage": 85.34
+  },
+  "notes": "Первая покупка в портфеле. МТС выбран как дивидендная акция с доходностью ~10% годовых и низкой волатильностью."
+}

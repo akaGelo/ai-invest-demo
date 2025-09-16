@@ -1,0 +1,33 @@
+# AI-инвест проект - конфиденциальные данные
+.mcp.json
+*.local.json
+.env
+
+# Временные файлы
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Логи и бэкапы
+*.log
+backup/
+*.bak
+
+# IDE файлы
+.idea/
+.vscode/
+ai-invest.iml
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log

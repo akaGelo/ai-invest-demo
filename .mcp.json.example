@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "mcp-atlassian": {
+      "command": "true", 
+      "enabled": false
+    },
+    "perplexity-ask": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "server-perplexity-ask"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "your_perplexity_api_key_here"
+      }
+    },
+    "tinkoff-invest-mcp": {
+      "command": "uvx",
+      "args": [
+        "tinkoff-invest-mcp"
+      ],
+      "env": {
+        "TINKOFF_MODE": "production",
+        "TINKOFF_ACCOUNT_ID": "your_account_id_here", 
+        "TINKOFF_TOKEN": "your_tinkoff_token_here"
+      }
+    }
+  }
+}
