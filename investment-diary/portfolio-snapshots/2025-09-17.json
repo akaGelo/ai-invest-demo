@@ -1,0 +1,114 @@
+{
+  "date": "2025-09-17",
+  "timestamp": "2025-09-17T11:30:00+03:00",
+  "account_id": "2281616680",
+  "portfolio": {
+    "positions": [
+      {
+        "instrument_id": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+        "instrument_name": "МТС",
+        "instrument_ticker": "MTSS",
+        "instrument_type": "share",
+        "isin": "RU0007775219",
+        "quantity": 4,
+        "quantity_lots": 40,
+        "average_price": 213.28,
+        "current_price": 211.00,
+        "market_value": 844.00,
+        "expected_yield": -91.00,
+        "expected_yield_percentage": -1.1,
+        "currency": "rub",
+        "blocked": false
+      },
+      {
+        "instrument_id": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+        "instrument_name": "Сбербанк",
+        "instrument_ticker": "SBER",
+        "instrument_type": "share",
+        "isin": "RU0009029540",
+        "quantity": 3,
+        "quantity_lots": 3,
+        "average_price": 301.62,
+        "current_price": 301.39,
+        "market_value": 904.17,
+        "expected_yield": -0.69,
+        "expected_yield_percentage": -0.02,
+        "currency": "rub",
+        "blocked": false
+      }
+    ],
+    "cash": {
+      "currency": "rub",
+      "amount": 560.37,
+      "blocked": 0
+    },
+    "total_portfolio_value": 9904.54,
+    "initial_investment": 10000.00,
+    "total_yield": -95.46,
+    "total_yield_percentage": -0.92,
+    "daily_yield": -54.69,
+    "daily_yield_percentage": -0.55
+  },
+  "transactions_today": [
+    {
+      "order_id": "70630760060",
+      "instrument": "SBER",
+      "type": "buy",
+      "quantity": 3,
+      "price": 301.62,
+      "total": 904.86,
+      "commission": 0.45,
+      "status": "executed"
+    }
+  ],
+  "portfolio_allocation": {
+    "by_type": {
+      "shares": 94.3,
+      "etf": 0,
+      "bonds": 0,
+      "cash": 5.7
+    },
+    "by_sector": {
+      "telecom": 53.1,
+      "finance": 41.2,
+      "energy": 0,
+      "technology": 0,
+      "other": 0,
+      "cash": 5.7
+    },
+    "by_strategy": {
+      "blue_chips": 41.2,
+      "dividend_stocks": 53.1,
+      "growth_stocks": 0,
+      "etf": 0,
+      "bonds": 0,
+      "cash": 5.7
+    }
+  },
+  "target_allocation": {
+    "blue_chips": 40,
+    "etf": 20,
+    "dividend_stocks": 20,
+    "growth_stocks": 15,
+    "bonds": 5
+  },
+  "metrics": {
+    "positions_count": 2,
+    "average_position_size": 874.09,
+    "largest_position": "MTSS",
+    "largest_position_weight": 53.1,
+    "cash_percentage": 5.7,
+    "invested_percentage": 94.3,
+    "sectors_diversification": 2,
+    "strategy_diversification": 2
+  },
+  "market_context": {
+    "index_imoex": "2804-2806 (+0.06-0.14%)",
+    "market_sentiment": "Осторожный оптимизм, восстановление после 5-дневного снижения",
+    "sector_performance": {
+      "banks": "Стабильно (+0.1%)",
+      "telecom": "Восстановление после вчерашней коррекции"
+    }
+  },
+  "notes": "Вторая покупка в портфеле. Добавлен Сбербанк для диверсификации по секторам. Достигнута базовая диверсификация: телеком + банки. Следующий приоритет - ETF для дальнейшей диверсификации."
+}
