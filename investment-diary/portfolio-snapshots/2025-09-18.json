@@ -1,0 +1,116 @@
+{
+  "date": "2025-09-18",
+  "time": "16:15 MSK",
+  "account_id": "2281616680",
+  "portfolio": {
+    "total_value": 14931.74,
+    "daily_yield": -108.13,
+    "daily_yield_percentage": -0.72,
+    "total_yield_percentage": -0.43,
+    "positions": [
+      {
+        "instrument_id": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+        "instrument_name": "МТС",
+        "instrument_ticker": "MTSS",
+        "instrument_type": "share",
+        "quantity": 40,
+        "quantity_lots": 4,
+        "average_price": 213.28,
+        "current_price": 211.65,
+        "position_value": 8466,
+        "expected_yield": -65,
+        "expected_yield_percentage": -0.76,
+        "currency": "rub",
+        "sector": "телекоммуникации",
+        "weight_in_portfolio": 56.7
+      },
+      {
+        "instrument_id": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+        "instrument_name": "Сбербанк",
+        "instrument_ticker": "SBER",
+        "instrument_type": "share",
+        "quantity": 3,
+        "average_price": 301.62,
+        "current_price": 301.79,
+        "position_value": 905.37,
+        "expected_yield": 0.51,
+        "expected_yield_percentage": 0.06,
+        "currency": "rub",
+        "sector": "банки",
+        "weight_in_portfolio": 6.1
+      },
+      {
+        "instrument_id": "f509af83-6e71-462f-901f-bcb073f6773b",
+        "instrument_name": "Крупнейшие компании РФ",
+        "instrument_ticker": "TMOS@",
+        "instrument_type": "etf",
+        "quantity": 154,
+        "average_price": 6.46,
+        "current_price": 6.46,
+        "position_value": 994.84,
+        "expected_yield": 0,
+        "expected_yield_percentage": 0,
+        "currency": "rub",
+        "sector": "диверсифицированный",
+        "weight_in_portfolio": 6.7,
+        "note": "ETF на индекс 50 крупнейших компаний России"
+      }
+    ],
+    "cash": {
+      "currency": "rub",
+      "available": 4565.53,
+      "blocked": 0,
+      "weight_in_portfolio": 30.6
+    }
+  },
+  "trading_activity": {
+    "today_trades": [
+      {
+        "time": "15:58 MSK",
+        "order_id": "620383556400",
+        "instrument": "TMOS@",
+        "action": "buy",
+        "quantity": 154,
+        "price": 6.46,
+        "amount": 994.84,
+        "reason": "Диверсификация портфеля через ETF"
+      }
+    ]
+  },
+  "portfolio_metrics": {
+    "total_companies": 52,
+    "direct_positions": 2,
+    "etf_exposure": 50,
+    "sectors_coverage": [
+      "телекоммуникации",
+      "банки",
+      "энергетика",
+      "нефтегаз",
+      "металлургия",
+      "технологии",
+      "потребительский сектор"
+    ],
+    "diversification_level": "высокий",
+    "risk_level": "умеренный"
+  },
+  "strategy_progress": {
+    "target_allocation": {
+      "blue_chips": { "target": 40, "current": 6.1, "status": "недостаточно" },
+      "dividend_stocks": { "target": 20, "current": 56.7, "status": "избыток" },
+      "etf": { "target": 20, "current": 6.7, "status": "начальная стадия" },
+      "growth_companies": { "target": 15, "current": 0, "status": "не начато" },
+      "bonds": { "target": 5, "current": 0, "status": "не начато" }
+    },
+    "next_priorities": [
+      "Увеличить долю ETF до 20%",
+      "Добавить прямые позиции в голубых фишках",
+      "Рассмотреть облигации для стабильности"
+    ]
+  },
+  "notes": [
+    "Третий день инвестирования - прорыв в диверсификации",
+    "Портфель расширился с 2 до 52 компаний за одну сделку",
+    "TMOS@ ETF дает экспозицию ко всей экономике России",
+    "Значительно снижен концентрационный риск"
+  ]
+}
