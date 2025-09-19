@@ -1,0 +1,170 @@
+{
+  "date": "2025-09-19",
+  "time": "10:35 MSK",
+  "account_id": "2281616680",
+  "portfolio_summary": {
+    "total_portfolio_value": 15014.99,
+    "cash_balance": 3330.84,
+    "total_yield_percentage": 0.13,
+    "daily_yield": 66.69,
+    "daily_yield_percentage": 0.45
+  },
+  "positions": [
+    {
+      "instrument_id": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "instrument_name": "Газпром",
+      "instrument_ticker": "GAZP",
+      "instrument_type": "share",
+      "quantity": 10,
+      "average_price": 123.42,
+      "current_price": 123.34,
+      "total_value": 1233.40,
+      "expected_yield": -0.8,
+      "yield_percentage": -0.06,
+      "currency": "rub",
+      "blocked": false,
+      "portfolio_percentage": 8.22
+    },
+    {
+      "instrument_id": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "instrument_name": "МТС",
+      "instrument_ticker": "MTSS",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 213.80,
+      "total_value": 8552.00,
+      "expected_yield": 21,
+      "yield_percentage": 0.24,
+      "currency": "rub",
+      "blocked": false,
+      "portfolio_percentage": 56.95
+    },
+    {
+      "instrument_id": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "instrument_name": "Сбербанк",
+      "instrument_ticker": "SBER",
+      "instrument_type": "share",
+      "quantity": 3,
+      "average_price": 301.62,
+      "current_price": 302.33,
+      "total_value": 906.99,
+      "expected_yield": 2.13,
+      "yield_percentage": 0.23,
+      "currency": "rub",
+      "blocked": false,
+      "portfolio_percentage": 6.04
+    },
+    {
+      "instrument_id": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "instrument_name": "TMOS ETF",
+      "instrument_ticker": "TMOS",
+      "instrument_type": "etf",
+      "quantity": 154,
+      "average_price": 6.46,
+      "current_price": 6.44,
+      "total_value": 991.76,
+      "expected_yield": -3.08,
+      "yield_percentage": -0.31,
+      "currency": "rub",
+      "blocked": false,
+      "portfolio_percentage": 6.60
+    }
+  ],
+  "sector_allocation": {
+    "Телекоммуникации": {
+      "value": 8552.00,
+      "percentage": 56.95,
+      "instruments": ["МТС"]
+    },
+    "Энергетика": {
+      "value": 1233.40,
+      "percentage": 8.22,
+      "instruments": ["Газпром"]
+    },
+    "Банки": {
+      "value": 906.99,
+      "percentage": 6.04,
+      "instruments": ["Сбербанк"]
+    },
+    "ETF": {
+      "value": 991.76,
+      "percentage": 6.60,
+      "instruments": ["TMOS ETF"]
+    },
+    "Денежные средства": {
+      "value": 3330.84,
+      "percentage": 22.19,
+      "instruments": ["RUB"]
+    }
+  },
+  "trading_day_operations": [
+    {
+      "operation_time": "10:35 MSK",
+      "instrument": "GAZP",
+      "instrument_name": "Газпром",
+      "operation_type": "BUY",
+      "quantity": 10,
+      "price": 123.42,
+      "total_amount": 1234.20,
+      "order_id": "70725922393",
+      "reasoning": "Диверсификация в энергетический сектор, покупка на коррекции -1.3%"
+    }
+  ],
+  "strategy_compliance": {
+    "target_allocation": {
+      "Голубые фишки": {
+        "target": 40,
+        "current": 15.26,
+        "status": "underweight"
+      },
+      "ETF": {
+        "target": 20,
+        "current": 6.60,
+        "status": "underweight"
+      },
+      "Дивидендные акции": {
+        "target": 20,
+        "current": 56.95,
+        "status": "overweight",
+        "note": "МТС пока единственная дивидендная позиция"
+      },
+      "Компании роста": {
+        "target": 15,
+        "current": 0,
+        "status": "missing"
+      },
+      "Облигации": {
+        "target": 5,
+        "current": 0,
+        "status": "missing"
+      }
+    },
+    "diversification_score": 6.5,
+    "max_position_limit": 56.95,
+    "cash_buffer": 22.19,
+    "notes": [
+      "Высокая концентрация в МТС требует дальнейшей диверсификации",
+      "Добавлен энергетический сектор (Газпром)",
+      "Необходимо увеличить долю ETF и добавить компании роста"
+    ]
+  },
+  "market_context": {
+    "moex_index": 2773,
+    "moex_change": -0.28,
+    "trading_session": "Main session",
+    "market_sentiment": "Weak correction",
+    "key_factors": [
+      "MOEX index composition changes (X5 included)",
+      "MinFin key rate forecast 12-13% for 2026",
+      "Inflation expectations at yearly lows",
+      "Geopolitical uncertainty"
+    ]
+  },
+  "next_day_plan": [
+    "Monitor Gazprom order execution",
+    "Consider adding more blue chips or ETF",
+    "Analyze dividend stocks opportunities",
+    "Maintain cash buffer 15-25%"
+  ]
+}
