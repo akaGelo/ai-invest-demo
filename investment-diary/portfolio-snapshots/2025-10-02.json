@@ -1,0 +1,197 @@
+{
+  "date": "2025-10-02",
+  "time": "10:40 MSK",
+  "account_id": "2281616680",
+  "portfolio_summary": {
+    "total_portfolio_value": 15438.70,
+    "cash_balance": 1187.01,
+    "total_yield_rub": -556.00,
+    "total_yield_percentage": -3.48,
+    "daily_yield_rub": 14.50,
+    "daily_yield_percentage": 0.09
+  },
+  "positions": [
+    {
+      "instrument_name": "МТС",
+      "instrument_ticker": "MTSS",
+      "instrument_uid": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 204.65,
+      "market_value": 8186.00,
+      "expected_yield": -345.20,
+      "portfolio_percentage": 53.0,
+      "blocked": false
+    },
+    {
+      "instrument_name": "TMOS@ ETF (Крупнейшие компании РФ)",
+      "instrument_ticker": "TMOS@",
+      "instrument_uid": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "instrument_type": "etf",
+      "quantity": 473,
+      "average_price": 6.34,
+      "current_price": 6.13,
+      "market_value": 2899.49,
+      "expected_yield": -98.52,
+      "portfolio_percentage": 18.8,
+      "blocked": false
+    },
+    {
+      "instrument_name": "Сбербанк",
+      "instrument_ticker": "SBER",
+      "instrument_uid": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "instrument_type": "share",
+      "quantity": 7,
+      "average_price": 292.15,
+      "current_price": 285.30,
+      "market_value": 1997.10,
+      "expected_yield": -47.96,
+      "portfolio_percentage": 12.9,
+      "blocked": false
+    },
+    {
+      "instrument_name": "Газпром",
+      "instrument_ticker": "GAZP",
+      "instrument_uid": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "instrument_type": "share",
+      "quantity": 10,
+      "average_price": 123.42,
+      "current_price": 116.91,
+      "market_value": 1169.10,
+      "expected_yield": -65.10,
+      "portfolio_percentage": 7.6,
+      "blocked": false
+    },
+    {
+      "instrument_name": "Рубли",
+      "instrument_ticker": "RUB",
+      "instrument_uid": "a92e2e25-a698-45cc-a781-167cf465257c",
+      "instrument_type": "currency",
+      "quantity": 1187.01,
+      "average_price": 1.00,
+      "current_price": 1.00,
+      "market_value": 1187.01,
+      "expected_yield": 0.00,
+      "portfolio_percentage": 7.7,
+      "blocked": false
+    }
+  ],
+  "sector_allocation": {
+    "telecoms": {
+      "percentage": 53.0,
+      "value": 8186.00,
+      "instruments": ["МТС"]
+    },
+    "banking": {
+      "percentage": 12.9,
+      "value": 1997.10,
+      "instruments": ["Сбербанк"]
+    },
+    "energy": {
+      "percentage": 7.6,
+      "value": 1169.10,
+      "instruments": ["Газпром"]
+    },
+    "etf_diversified": {
+      "percentage": 18.8,
+      "value": 2899.49,
+      "instruments": ["TMOS@ ETF"]
+    },
+    "cash": {
+      "percentage": 7.7,
+      "value": 1187.01,
+      "instruments": ["Рубли"]
+    }
+  },
+  "recent_transaction": {
+    "date": "2025-10-02",
+    "time": "10:40 MSK",
+    "instrument": "Сбербанк",
+    "action": "BUY",
+    "quantity": 4,
+    "price": 285.30,
+    "amount": 1141.20,
+    "order_id": "71196728768",
+    "reason": "Усреднение позиции + рост доли голубых фишек на рыночной просадке"
+  },
+  "strategy_compliance": {
+    "target_blue_chips_percentage": 40,
+    "current_blue_chips_percentage": 20.5,
+    "target_etf_percentage": 20,
+    "current_etf_percentage": 18.8,
+    "target_dividend_stocks_percentage": 20,
+    "current_dividend_stocks_percentage": 53.0,
+    "target_growth_stocks_percentage": 15,
+    "current_growth_stocks_percentage": 0,
+    "target_bonds_percentage": 5,
+    "current_bonds_percentage": 0,
+    "diversification_score": "IMPROVING",
+    "concentration_risk": "HIGH - МТС 53.0%",
+    "key_achievement": "📈 Доля голубых фишек выросла до 20.5%!"
+  },
+  "next_steps": [
+    "Продолжить снижение концентрации МТС до 40-45%",
+    "Увеличить долю голубых фишек до 30-35%",
+    "Добавить Лукойл (третья голубая фишка)",
+    "Рассмотреть дивидендные акции (Татнефть, НЛМК)"
+  ],
+  "market_conditions": {
+    "moex_index": "<2650",
+    "moex_change": "обновление минимумов с июля",
+    "market_sentiment": "негативный, продолжение коррекции",
+    "key_factors": [
+      "геополитическая напряженность и санкционное давление",
+      "высокая инфляция и ужесточение риторики ЦБ РФ (ставка 17%)",
+      "сентябрьское падение индексов -7-10%",
+      "отсутствие новых позитивных драйверов",
+      "реакция на корпоративные новости отдельных компаний"
+    ]
+  },
+  "performance_analysis": {
+    "days_since_start": 16,
+    "total_invested": 15994.00,
+    "current_value": 15438.70,
+    "absolute_loss": -556.00,
+    "percentage_loss": -3.48,
+    "daily_contributions": 1000.00,
+    "all_positions_negative": true,
+    "worst_performer": {
+      "name": "Газпром",
+      "loss_percentage": -5.3
+    },
+    "best_performer": {
+      "name": "Сбербанк",
+      "loss_percentage": -2.4
+    },
+    "market_comparison": {
+      "portfolio_return": -3.48,
+      "moex_return_estimate": -7.0,
+      "outperformance": 3.52
+    }
+  },
+  "risk_assessment": {
+    "concentration_risk": "HIGH - МТС составляет 53.0% портфеля",
+    "market_risk": "HIGH - рыночная коррекция продолжается",
+    "liquidity_risk": "LOW - 7.7% в кэше",
+    "diversification_status": "IMPROVING - рост доли голубых фишек",
+    "time_horizon_advantage": "3-5 лет позволяет переждать коррекцию"
+  },
+  "achievements": {
+    "blue_chips_growth": {
+      "from": 14.0,
+      "to": 20.5,
+      "growth": 6.5
+    },
+    "sberbank_averaging": {
+      "old_average_price": 301.62,
+      "new_average_price": 292.15,
+      "improvement": -9.47
+    },
+    "mts_concentration_reduction": {
+      "from": 56.7,
+      "to": 53.0,
+      "improvement": -3.7
+    }
+  }
+}
