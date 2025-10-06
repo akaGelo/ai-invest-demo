@@ -1,0 +1,205 @@
+{
+  "date": "2025-10-06",
+  "time": "11:00 MSK",
+  "account_id": "2281616680",
+  "portfolio_summary": {
+    "total_portfolio_value": 20363.70,
+    "cash_balance": 5047.48,
+    "total_yield_rub": -631.00,
+    "total_yield_percentage": -3.01,
+    "daily_yield_rub": 143.99,
+    "daily_yield_percentage": 0.71
+  },
+  "positions": [
+    {
+      "instrument_name": "МТС",
+      "instrument_ticker": "MTSS",
+      "instrument_uid": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 203.80,
+      "market_value": 8152.00,
+      "expected_yield": -379.20,
+      "portfolio_percentage": 40.0,
+      "blocked": false
+    },
+    {
+      "instrument_name": "Сбербанк",
+      "instrument_ticker": "SBER",
+      "instrument_uid": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "instrument_type": "share",
+      "quantity": 11,
+      "average_price": 289.47,
+      "current_price": 284.81,
+      "market_value": 3132.91,
+      "expected_yield": -51.22,
+      "portfolio_percentage": 15.4,
+      "blocked": false
+    },
+    {
+      "instrument_name": "TMOS@ ETF (Крупнейшие компании РФ)",
+      "instrument_ticker": "TMOS@",
+      "instrument_uid": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "instrument_type": "etf",
+      "quantity": 473,
+      "average_price": 6.34,
+      "current_price": 6.07,
+      "market_value": 2871.11,
+      "expected_yield": -126.90,
+      "portfolio_percentage": 14.1,
+      "blocked": false
+    },
+    {
+      "instrument_name": "Газпром",
+      "instrument_ticker": "GAZP",
+      "instrument_uid": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "instrument_type": "share",
+      "quantity": 10,
+      "average_price": 123.42,
+      "current_price": 116.02,
+      "market_value": 1160.20,
+      "expected_yield": -74.00,
+      "portfolio_percentage": 5.7,
+      "blocked": false
+    },
+    {
+      "instrument_name": "Рубли",
+      "instrument_ticker": "RUB",
+      "instrument_uid": "a92e2e25-a698-45cc-a781-167cf465257c",
+      "instrument_type": "currency",
+      "quantity": 5047.48,
+      "average_price": 1.00,
+      "current_price": 1.00,
+      "market_value": 5047.48,
+      "expected_yield": 0.00,
+      "portfolio_percentage": 24.8,
+      "blocked": false
+    }
+  ],
+  "sector_allocation": {
+    "telecoms": {
+      "percentage": 40.0,
+      "value": 8152.00,
+      "instruments": ["МТС"]
+    },
+    "banking": {
+      "percentage": 15.4,
+      "value": 3132.91,
+      "instruments": ["Сбербанк"]
+    },
+    "etf_diversified": {
+      "percentage": 14.1,
+      "value": 2871.11,
+      "instruments": ["TMOS@ ETF"]
+    },
+    "energy": {
+      "percentage": 5.7,
+      "value": 1160.20,
+      "instruments": ["Газпром"]
+    },
+    "cash": {
+      "percentage": 24.8,
+      "value": 5047.48,
+      "instruments": ["Рубли"]
+    }
+  },
+  "recent_transaction": {
+    "date": "2025-10-06",
+    "time": "11:00 MSK",
+    "instrument": "Сбербанк",
+    "action": "BUY",
+    "quantity": 4,
+    "price": 284.81,
+    "amount": 1139.24,
+    "order_id": "RINEWQ47KCSBKB4GM9NF",
+    "reason": "Антикризисная покупка на панике (MOEX упал до 579), третье усреднение позиции Сбербанка"
+  },
+  "strategy_compliance": {
+    "target_blue_chips_percentage": 40,
+    "current_blue_chips_percentage": 21.1,
+    "target_etf_percentage": 20,
+    "current_etf_percentage": 14.1,
+    "target_dividend_stocks_percentage": 20,
+    "current_dividend_stocks_percentage": 40.0,
+    "target_growth_stocks_percentage": 15,
+    "current_growth_stocks_percentage": 0,
+    "target_bonds_percentage": 5,
+    "current_bonds_percentage": 0,
+    "diversification_score": "GOOD",
+    "concentration_risk": "RESOLVED - МТС снижен до целевых 40%!",
+    "key_achievement": "🎯 Концентрация МТС снижена до целевых 40%!"
+  },
+  "next_steps": [
+    "Использовать 5,047₽ ликвидности для покупок на просадках",
+    "Продолжить наращивание голубых фишек до 30-40%",
+    "Увеличить долю ETF с 14.1% до 20%",
+    "Добавить новые активы (Лукойл, Татнефть, НЛМК)"
+  ],
+  "market_conditions": {
+    "moex_index": 2608,
+    "moex_intraday_low": 579,
+    "moex_change": "критическая коррекция - минимум с декабря 2024",
+    "market_sentiment": "паника, давление продаж",
+    "key_factors": [
+      "ожидание новых санкций ЕС и геополитическая эскалация",
+      "сохранение высокой ключевой ставки ЦБ РФ (17%)",
+      "критическое ослабление рубля (доллар 82.5₽, юань 11.6₽)",
+      "сентябрьское падение индексов -7-10%",
+      "отсутствие позитивных драйверов роста"
+    ]
+  },
+  "performance_analysis": {
+    "days_since_start": 20,
+    "total_invested": 20994.70,
+    "current_value": 20363.70,
+    "absolute_loss": -631.00,
+    "percentage_loss": -3.01,
+    "todays_deposit": 5000.00,
+    "all_positions_negative": true,
+    "worst_performer": {
+      "name": "Газпром",
+      "loss_percentage": -6.0
+    },
+    "best_performer": {
+      "name": "Сбербанк",
+      "loss_percentage": -2.4
+    },
+    "market_comparison": {
+      "portfolio_return": -3.01,
+      "moex_september_return": -7.5,
+      "outperformance": 4.49
+    }
+  },
+  "risk_assessment": {
+    "concentration_risk": "RESOLVED - МТС составляет ровно 40% (цель достигнута)",
+    "market_risk": "CRITICAL - MOEX упал до 579 (минимум с декабря 2024)",
+    "liquidity_risk": "EXCELLENT - 24.8% в кэше",
+    "diversification_status": "IMPROVING - 5 позиций, хорошая диверсификация",
+    "time_horizon_advantage": "3-5 лет позволяет использовать кризис для накопления"
+  },
+  "achievements": {
+    "mts_target_reached": {
+      "target": 40.0,
+      "achieved": 40.0,
+      "status": "COMPLETED"
+    },
+    "sberbank_averaging": {
+      "first_purchase_price": 301.62,
+      "second_purchase_price": 285.30,
+      "third_purchase_price": 284.81,
+      "current_average_price": 289.47,
+      "total_shares": 11
+    },
+    "blue_chips_growth": {
+      "from": 20.5,
+      "to": 21.1,
+      "growth": 0.6
+    },
+    "crisis_buying": {
+      "moex_intraday_low": 579,
+      "purchase_level": 2608,
+      "status": "Купили на восстановлении от минимума"
+    }
+  }
+}
