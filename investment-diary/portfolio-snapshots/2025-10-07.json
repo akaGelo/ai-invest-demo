@@ -1,0 +1,156 @@
+{
+  "date": "2025-10-07",
+  "timestamp": "2025-10-07T10:35:00+03:00",
+  "account_id": "2281616680",
+  "portfolio_summary": {
+    "total_portfolio_value": 20390.63,
+    "cash_balance": 4176.92,
+    "cash_percentage": 20.5,
+    "total_yield": -600.62,
+    "total_yield_percentage": -2.88,
+    "daily_yield": -68.04,
+    "daily_yield_percentage": -0.33
+  },
+  "positions": [
+    {
+      "instrument_uid": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "instrument_name": "МТС",
+      "instrument_ticker": "MTSS",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 201.75,
+      "total_cost": 8532.0,
+      "current_value": 8070.0,
+      "expected_yield": -461.0,
+      "expected_yield_percentage": -5.4,
+      "portfolio_percentage": 39.6,
+      "currency": "rub"
+    },
+    {
+      "instrument_uid": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "instrument_name": "Сбербанк",
+      "instrument_ticker": "SBER",
+      "instrument_type": "share",
+      "quantity": 14,
+      "average_price": 289.60,
+      "current_price": 290.04,
+      "total_cost": 4054.4,
+      "current_value": 4060.56,
+      "expected_yield": 5.38,
+      "expected_yield_percentage": 0.13,
+      "portfolio_percentage": 19.9,
+      "currency": "rub",
+      "notes": "Куплено 3 акции по ~290₽, усреднение с 289.47₽ до 289.60₽"
+    },
+    {
+      "instrument_uid": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "instrument_name": "TMOS@ ETF (Крупнейшие компании РФ)",
+      "instrument_ticker": "TMOS@",
+      "instrument_type": "etf",
+      "quantity": 473,
+      "average_price": 6.34,
+      "current_price": 6.14,
+      "total_cost": 2998.82,
+      "current_value": 2904.22,
+      "expected_yield": -98.52,
+      "expected_yield_percentage": -3.3,
+      "portfolio_percentage": 14.2,
+      "currency": "rub"
+    },
+    {
+      "instrument_uid": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "instrument_name": "Газпром",
+      "instrument_ticker": "GAZP",
+      "instrument_type": "share",
+      "quantity": 10,
+      "average_price": 123.42,
+      "current_price": 118.51,
+      "total_cost": 1234.2,
+      "current_value": 1185.1,
+      "expected_yield": -49.7,
+      "expected_yield_percentage": -4.0,
+      "portfolio_percentage": 5.8,
+      "currency": "rub"
+    }
+  ],
+  "trades_today": [
+    {
+      "order_id": "71362090263",
+      "instrument_uid": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "instrument_name": "Сбербанк",
+      "instrument_ticker": "SBER",
+      "direction": "BUY",
+      "quantity": 3,
+      "price": 290.0,
+      "total_amount": 870.0,
+      "order_type": "MARKET",
+      "status": "EXECUTED",
+      "timestamp": "2025-10-07T10:32:00+03:00"
+    }
+  ],
+  "allocation_targets": {
+    "blue_chips_target": 40,
+    "blue_chips_current": 45.5,
+    "blue_chips_status": "above_target",
+    "etf_target": 20,
+    "etf_current": 14.2,
+    "etf_status": "below_target",
+    "dividend_stocks_target": 20,
+    "dividend_stocks_current": 39.6,
+    "dividend_stocks_status": "above_target",
+    "growth_stocks_target": 15,
+    "growth_stocks_current": 0,
+    "growth_stocks_status": "not_started",
+    "bonds_target": 5,
+    "bonds_current": 0,
+    "bonds_status": "not_started"
+  },
+  "market_context": {
+    "moex_index": 2643,
+    "moex_daily_change": -0.2,
+    "moex_weekly_change": -10.0,
+    "market_sentiment": "bearish",
+    "key_factors": [
+      "Ожидание повышения ключевой ставки ЦБ до 21%",
+      "Геополитическая напряженность",
+      "Рост цен на нефть (Brent) - позитивный фактор",
+      "Индекс на минимумах с декабря 2022 года"
+    ]
+  },
+  "strategy_notes": {
+    "action_today": "Докупка Сбербанка - 3 акции",
+    "rationale": "Лучший актив портфеля, почти вышел в ноль. Продолжаем усреднение и наращивание доли голубых фишек.",
+    "next_priority": "Продолжить наращивание Сбербанка до 25-30% портфеля",
+    "averaging_down_progress": {
+      "sberbank": {
+        "purchases": [
+          {"date": "2025-10-02", "quantity": 4, "price": 285.30},
+          {"date": "2025-10-06", "quantity": 4, "price": 284.81},
+          {"date": "2025-10-07", "quantity": 3, "price": 290.00}
+        ],
+        "total_quantity": 14,
+        "average_price": 289.60,
+        "current_price": 290.04,
+        "status": "slightly_profitable"
+      }
+    }
+  },
+  "performance_metrics": {
+    "best_performer": {
+      "name": "Сбербанк",
+      "yield": 5.38,
+      "yield_percentage": 0.13
+    },
+    "worst_performer": {
+      "name": "МТС",
+      "yield": -461.0,
+      "yield_percentage": -5.4
+    },
+    "concentration_risk": {
+      "mts_concentration": 39.6,
+      "target_mts": 40.0,
+      "status": "within_target"
+    }
+  }
+}
