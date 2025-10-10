@@ -1,0 +1,198 @@
+{
+  "date": "2025-10-08-10",
+  "period": "3 days",
+  "timestamp": "2025-10-10T16:40:00+03:00",
+  "account_id": "2281616680",
+  "portfolio_summary": {
+    "total_portfolio_value": 20182.63,
+    "cash_balance": 3.29,
+    "cash_percentage": 0.02,
+    "total_yield": -810.66,
+    "total_yield_percentage": -3.86,
+    "daily_yield": -310.41,
+    "daily_yield_percentage": -1.51
+  },
+  "positions": [
+    {
+      "instrument_uid": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "instrument_name": "МТС",
+      "instrument_ticker": "MTSS",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 200.35,
+      "total_cost": 8531.2,
+      "current_value": 8014.0,
+      "expected_yield": -517.0,
+      "expected_yield_percentage": -6.1,
+      "portfolio_percentage": 39.7,
+      "currency": "rub"
+    },
+    {
+      "instrument_uid": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "instrument_name": "Сбербанк",
+      "instrument_ticker": "SBER",
+      "instrument_type": "share",
+      "quantity": 14,
+      "average_price": 289.60,
+      "current_price": 284.91,
+      "total_cost": 4054.4,
+      "current_value": 3988.74,
+      "expected_yield": -65.6,
+      "expected_yield_percentage": -1.7,
+      "portfolio_percentage": 19.7,
+      "currency": "rub",
+      "notes": "Без изменений за период"
+    },
+    {
+      "instrument_uid": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "instrument_name": "Газпром",
+      "instrument_ticker": "GAZP",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 117.55,
+      "current_price": 115.62,
+      "total_cost": 4702.0,
+      "current_value": 4624.8,
+      "expected_yield": -77.3,
+      "expected_yield_percentage": -1.7,
+      "portfolio_percentage": 22.9,
+      "currency": "rub",
+      "notes": "Куплено 30 акций по ~115.60₽, усреднение с 123.42₽ до 117.55₽"
+    },
+    {
+      "instrument_uid": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "instrument_name": "TMOS@ ETF (Крупнейшие компании РФ)",
+      "instrument_ticker": "TMOS@",
+      "instrument_type": "etf",
+      "quantity": 590,
+      "average_price": 6.28,
+      "current_price": 6.02,
+      "total_cost": 3705.2,
+      "current_value": 3551.8,
+      "expected_yield": -150.55,
+      "expected_yield_percentage": -4.1,
+      "portfolio_percentage": 17.6,
+      "currency": "rub",
+      "notes": "Куплено 117 акций по ~6.02₽, усреднение с 6.34₽ до 6.28₽"
+    }
+  ],
+  "trades_period": [
+    {
+      "date": "2025-10-10",
+      "order_id": "RIN015HGMDK58II0AXSE",
+      "instrument_uid": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "instrument_name": "Газпром",
+      "instrument_ticker": "GAZP",
+      "direction": "BUY",
+      "quantity": 30,
+      "price": 115.60,
+      "total_amount": 3468.0,
+      "order_type": "MARKET",
+      "status": "EXECUTED",
+      "timestamp": "2025-10-10T16:35:00+03:00"
+    },
+    {
+      "date": "2025-10-10",
+      "order_id": "621017460680",
+      "instrument_uid": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "instrument_name": "TMOS@ ETF",
+      "instrument_ticker": "TMOS@",
+      "direction": "BUY",
+      "quantity": 117,
+      "price": 6.02,
+      "total_amount": 704.34,
+      "order_type": "MARKET",
+      "status": "EXECUTED",
+      "timestamp": "2025-10-10T16:35:00+03:00"
+    }
+  ],
+  "allocation_targets": {
+    "blue_chips_target": 40,
+    "blue_chips_current": 82.3,
+    "blue_chips_status": "strongly_above_target",
+    "etf_target": 20,
+    "etf_current": 17.6,
+    "etf_status": "close_to_target",
+    "dividend_stocks_target": 20,
+    "dividend_stocks_current": 39.7,
+    "dividend_stocks_status": "above_target",
+    "growth_stocks_target": 15,
+    "growth_stocks_current": 0,
+    "growth_stocks_status": "not_started",
+    "bonds_target": 5,
+    "bonds_current": 0,
+    "bonds_status": "not_started"
+  },
+  "market_context": {
+    "moex_index_oct_8": 2562,
+    "moex_index_oct_9": 2638,
+    "moex_index_oct_10": 2600,
+    "moex_weekly_change": -10.0,
+    "market_sentiment": "recovering_after_panic",
+    "key_events": [
+      "8 окт: Крупнейшее падение года -4% (паника)",
+      "9 окт: Мощный отскок +3% (Набиуллина о снижении ставки)",
+      "10 окт: Консолидация, рекордные обороты 120 млрд₽",
+      "Санкции ЕС на российский СПГ с 2027 года"
+    ]
+  },
+  "strategy_notes": {
+    "action_period": "Агрессивная покупка на панике - Газпром +30 акций, ETF +117 акций",
+    "rationale": "Использовали крупнейшую коррекцию года для наращивания позиций. Газпром вырос с 5.7% до 22.9%, ETF с 14.1% до 17.6%",
+    "next_priority": "КРИТИЧНО: Ребалансировка! Голубые фишки 82.3% vs цель 40%. Диверсификация в компании роста и облигации",
+    "risks": [
+      "Нулевой кэш (3₽) - нет маневра",
+      "Газпром перекуплен (22.9% vs цель 5%)",
+      "Все позиции в убытке (-3.86%)",
+      "Высокая волатильность"
+    ],
+    "achievements": [
+      "Успешное усреднение: Газпром 123.42₽→117.55₽ (-4.8%)",
+      "ETF усреднен: 6.34₽→6.28₽ (-0.9%)",
+      "Купили на дне рынка (индекс 2,562)",
+      "Вложили весь доступный кэш (4,177₽→3₽)"
+    ]
+  },
+  "performance_metrics": {
+    "best_performer": {
+      "name": "Газпром",
+      "yield": -77.3,
+      "yield_percentage": -1.7,
+      "note": "Лучший среди убыточных"
+    },
+    "worst_performer": {
+      "name": "МТС",
+      "yield": -517.0,
+      "yield_percentage": -6.1
+    },
+    "concentration_risk": {
+      "top_position": "МТС",
+      "top_concentration": 39.7,
+      "top_3_concentration": 82.3,
+      "status": "high_concentration_risk"
+    }
+  },
+  "position_changes": {
+    "gazprom": {
+      "quantity_before": 10,
+      "quantity_after": 40,
+      "change": "+300%",
+      "portfolio_share_before": 5.7,
+      "portfolio_share_after": 22.9,
+      "avg_price_before": 123.42,
+      "avg_price_after": 117.55,
+      "status": "major_increase"
+    },
+    "tmos_etf": {
+      "quantity_before": 473,
+      "quantity_after": 590,
+      "change": "+24.7%",
+      "portfolio_share_before": 14.1,
+      "portfolio_share_after": 17.6,
+      "avg_price_before": 6.34,
+      "avg_price_after": 6.28,
+      "status": "moderate_increase"
+    }
+  }
+}
