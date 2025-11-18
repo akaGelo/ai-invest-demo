@@ -1,0 +1,180 @@
+{
+  "date": "2025-11-18T12:00:00+03:00",
+  "account_id": "2281616680",
+  "summary": {
+    "total_portfolio_value": 25884.18,
+    "cash_balance": 4434.16,
+    "cash_percentage": 17.13,
+    "total_yield_percentage": -0.42,
+    "total_yield_amount": -108.67,
+    "daily_yield": 440.5,
+    "daily_yield_percentage": 1.73
+  },
+  "positions": [
+    {
+      "instrument_id": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "ticker": "MTSS",
+      "name": "МТС",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 206.25,
+      "total_value": 8250.0,
+      "expected_yield": -281.0,
+      "expected_yield_percentage": -3.4,
+      "portfolio_percentage": 31.87,
+      "currency": "rub"
+    },
+    {
+      "instrument_id": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "ticker": "GAZP",
+      "name": "Газпром",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 117.55,
+      "current_price": 122.1,
+      "total_value": 4884.0,
+      "expected_yield": 181.9,
+      "expected_yield_percentage": 3.87,
+      "portfolio_percentage": 18.87,
+      "currency": "rub"
+    },
+    {
+      "instrument_id": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "ticker": "SBER",
+      "name": "Сбербанк",
+      "instrument_type": "share",
+      "quantity": 14,
+      "average_price": 289.6,
+      "current_price": 301.38,
+      "total_value": 4219.32,
+      "expected_yield": 164.98,
+      "expected_yield_percentage": 4.07,
+      "portfolio_percentage": 16.3,
+      "currency": "rub"
+    },
+    {
+      "instrument_id": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "ticker": "TMOS@",
+      "name": "TMOS@ ETF",
+      "instrument_type": "etf",
+      "quantity": 590,
+      "average_price": 6.28,
+      "current_price": 5.98,
+      "total_value": 3528.2,
+      "expected_yield": -174.15,
+      "expected_yield_percentage": -4.7,
+      "portfolio_percentage": 13.63,
+      "currency": "rub"
+    },
+    {
+      "instrument_id": "88468f6c-c67a-4fb4-a006-53eed803883c",
+      "ticker": "TATN",
+      "name": "Татнефть",
+      "instrument_type": "share",
+      "quantity": 1,
+      "average_price": 568.9,
+      "current_price": 568.5,
+      "total_value": 568.5,
+      "expected_yield": -0.4,
+      "expected_yield_percentage": -0.07,
+      "portfolio_percentage": 2.2,
+      "currency": "rub",
+      "note": "Первая покупка в секторе дивидендных акций"
+    }
+  ],
+  "allocation_by_category": {
+    "blue_chips": {
+      "percentage": 65.04,
+      "target": 40.0,
+      "status": "Перекуплено",
+      "assets": ["MTSS", "GAZP", "SBER"]
+    },
+    "etf": {
+      "percentage": 13.63,
+      "target": 20.0,
+      "status": "Докупать",
+      "assets": ["TMOS@"]
+    },
+    "dividend_stocks": {
+      "percentage": 2.2,
+      "target": 20.0,
+      "status": "Начато - продолжать покупки",
+      "assets": ["TATN"],
+      "note": "Новая категория, добавлена 18.11.2025"
+    },
+    "growth_companies": {
+      "percentage": 0.0,
+      "target": 15.0,
+      "status": "Отсутствует - следующий приоритет",
+      "assets": [],
+      "candidates": ["OZON", "POSI"]
+    },
+    "bonds": {
+      "percentage": 0.0,
+      "target": 5.0,
+      "status": "Отсутствует - будущее",
+      "assets": []
+    },
+    "cash": {
+      "percentage": 17.13,
+      "target": 10.0,
+      "status": "В норме"
+    }
+  },
+  "market_context": {
+    "moex_index": 2531,
+    "moex_index_change": -1.2,
+    "key_rate": 16.0,
+    "usd_rub": 82.87,
+    "market_sentiment": "Волатильность, выжидательная позиция",
+    "key_risks": [
+      "Геополитика",
+      "Санкции",
+      "Высокая ставка ЦБ",
+      "Валютная неопределенность"
+    ]
+  },
+  "transactions_today": [
+    {
+      "order_id": "RIN0281CG71A0HW5LKJN",
+      "ticker": "TATN",
+      "type": "BUY",
+      "quantity": 1,
+      "price": 568.9,
+      "total_amount": 568.9,
+      "timestamp": "2025-11-18T11:50:00+03:00",
+      "rationale": "Диверсификация: добавление дивидендного сектора"
+    }
+  ],
+  "performance_metrics": {
+    "total_invested": 21180.0,
+    "current_value": 25884.18,
+    "total_return": 4704.18,
+    "total_return_percentage": 22.21,
+    "best_performer": {
+      "ticker": "SBER",
+      "return_percentage": 4.07
+    },
+    "worst_performer": {
+      "ticker": "TMOS@",
+      "return_percentage": -4.7
+    },
+    "days_since_start": 49,
+    "average_daily_investment": 1000.0
+  },
+  "notes": [
+    "Портфель вырос на 28% за последний месяц (с 10.10.2025)",
+    "Доходность улучшилась с -3.86% до -0.42%",
+    "Добавлена первая дивидендная акция - Татнефть",
+    "МТС остается единственной крупной убыточной позицией",
+    "Продолжается движение к целевой структуре портфеля"
+  ],
+  "next_steps": [
+    "Продолжить покупку дивидендных акций (цель 20%)",
+    "Начать добавление компаний роста (OZON, POSI)",
+    "Довести ETF до 20%",
+    "Мониторить МТС на предмет усреднения или фиксации",
+    "Подготовка к квартальной ребалансировке Q1 2026"
+  ]
+}
