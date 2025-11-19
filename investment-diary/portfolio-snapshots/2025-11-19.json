@@ -1,0 +1,215 @@
+{
+  "date": "2025-11-19T14:00:00+03:00",
+  "account_id": "2281616680",
+  "summary": {
+    "total_portfolio_value": 25919.84,
+    "cash_balance": 3433.83,
+    "cash_percentage": 13.25,
+    "total_yield_percentage": -0.28,
+    "total_yield_amount": -72.55,
+    "daily_yield": 163.62,
+    "daily_yield_percentage": 0.64
+  },
+  "positions": [
+    {
+      "instrument_id": "cd8063ad-73ad-4b31-bd0d-93138d9e99a2",
+      "ticker": "MTSS",
+      "name": "МТС",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 213.28,
+      "current_price": 207.6,
+      "total_value": 8304.0,
+      "expected_yield": -227.0,
+      "expected_yield_percentage": -2.67,
+      "portfolio_percentage": 32.04,
+      "currency": "rub",
+      "note": "Восстанавливается второй день: вчера -281₽, сегодня -227₽"
+    },
+    {
+      "instrument_id": "962e2a95-02a9-4171-abd7-aa198dbe643a",
+      "ticker": "GAZP",
+      "name": "Газпром",
+      "instrument_type": "share",
+      "quantity": 40,
+      "average_price": 117.55,
+      "current_price": 122.1,
+      "total_value": 4884.0,
+      "expected_yield": 181.9,
+      "expected_yield_percentage": 3.87,
+      "portfolio_percentage": 18.84,
+      "currency": "rub",
+      "note": "Стабилен, второй день в плюсе"
+    },
+    {
+      "instrument_id": "e6123145-9665-43e0-8413-cd61b8aa9b13",
+      "ticker": "SBER",
+      "name": "Сбербанк",
+      "instrument_type": "share",
+      "quantity": 14,
+      "average_price": 289.6,
+      "current_price": 299.92,
+      "total_value": 4198.88,
+      "expected_yield": 144.54,
+      "expected_yield_percentage": 3.56,
+      "portfolio_percentage": 16.2,
+      "currency": "rub",
+      "note": "Небольшая коррекция -0.01%, держится в плюсе"
+    },
+    {
+      "instrument_id": "f509af83-6e71-462f-901f-bcb073f6773b",
+      "ticker": "TMOS@",
+      "name": "TMOS@ ETF",
+      "instrument_type": "etf",
+      "quantity": 757,
+      "average_price": 6.21,
+      "current_price": 5.99,
+      "total_value": 4534.43,
+      "expected_yield": -168.25,
+      "expected_yield_percentage": -3.58,
+      "portfolio_percentage": 17.5,
+      "currency": "rub",
+      "note": "Докуплено +167 акций! Доля выросла с 13.7% до 17.5%. Средняя улучшилась: 6.28₽ → 6.21₽"
+    },
+    {
+      "instrument_id": "88468f6c-c67a-4fb4-a006-53eed803883c",
+      "ticker": "TATN",
+      "name": "Татнефть",
+      "instrument_type": "share",
+      "quantity": 1,
+      "average_price": 568.9,
+      "current_price": 564.7,
+      "total_value": 564.7,
+      "expected_yield": -4.2,
+      "expected_yield_percentage": -0.74,
+      "portfolio_percentage": 2.18,
+      "currency": "rub",
+      "note": "Вчерашняя покупка, небольшая коррекция -0.7%"
+    }
+  ],
+  "allocation_by_category": {
+    "blue_chips": {
+      "percentage": 67.08,
+      "target": 40.0,
+      "status": "Перекуплено, но снижается",
+      "assets": ["MTSS", "GAZP", "SBER"],
+      "progress": "Было 65%, стало 67% из-за роста стоимости позиций"
+    },
+    "etf": {
+      "percentage": 17.5,
+      "target": 20.0,
+      "status": "Почти достигли цели! Осталось 2.5%",
+      "assets": ["TMOS@"],
+      "note": "Сегодня докуплено +167 акций, доля выросла с 13.7%"
+    },
+    "dividend_stocks": {
+      "percentage": 2.18,
+      "target": 20.0,
+      "status": "Продолжать покупки",
+      "assets": ["TATN"],
+      "note": "Добавлена вчера (18.11), требуется усиление"
+    },
+    "growth_companies": {
+      "percentage": 0.0,
+      "target": 15.0,
+      "status": "Отсутствует - следующий приоритет",
+      "assets": [],
+      "candidates": ["OZON (3,848₽ - слишком дорого)"]
+    },
+    "bonds": {
+      "percentage": 0.0,
+      "target": 5.0,
+      "status": "Отсутствует - будущее",
+      "assets": []
+    },
+    "cash": {
+      "percentage": 13.25,
+      "target": 10.0,
+      "status": "Чуть выше нормы, но в пределах разумного"
+    }
+  },
+  "market_context": {
+    "trading_session": "active",
+    "session_time": "14:00 MSK",
+    "market_sentiment": "Умеренно позитивное, второй день роста",
+    "key_rate": 16.0,
+    "key_observations": [
+      "Портфель растет второй день подряд",
+      "МТС восстанавливается: убыток -281₽ → -227₽",
+      "ETF почти достиг цели: 17.5% из 20%",
+      "Общая доходность улучшается: -0.42% → -0.28%"
+    ]
+  },
+  "transactions_today": [
+    {
+      "order_id": "622829295980",
+      "ticker": "TMOS@",
+      "type": "BUY",
+      "quantity": 167,
+      "price": 5.99,
+      "total_amount": 1000.33,
+      "timestamp": "2025-11-19T14:00:00+03:00",
+      "rationale": "Движение к целевой структуре: ETF 13.7% → 17.5%. Усиление диверсификации, снижение концентрации в голубых фишках."
+    }
+  ],
+  "performance_metrics": {
+    "total_invested": 22180.0,
+    "current_value": 25919.84,
+    "total_return": 3739.84,
+    "total_return_percentage": 16.86,
+    "best_performer": {
+      "ticker": "GAZP",
+      "return_percentage": 3.87
+    },
+    "worst_performer": {
+      "ticker": "TMOS@",
+      "return_percentage": -3.58
+    },
+    "days_since_start": 50,
+    "average_daily_investment": 1000.0,
+    "days_in_positive": 2,
+    "current_streak": "2 дня подряд рост"
+  },
+  "progress_tracking": {
+    "day_13_achievements": [
+      "Добавлена Татнефть (дивидендные 0% → 2.2%)",
+      "Портфель +1.73%",
+      "Доходность улучшилась до -0.42%"
+    ],
+    "day_14_achievements": [
+      "Докуплен ETF (13.7% → 17.5%)",
+      "Портфель +0.64%",
+      "Доходность улучшилась до -0.28%",
+      "МТС восстановился: -281₽ → -227₽"
+    ],
+    "two_day_summary": {
+      "portfolio_growth": "+2.37%",
+      "yield_improvement": "+0.14%",
+      "mts_recovery": "+54₽",
+      "etf_progress": "+3.8%",
+      "new_category_added": "Дивидендные акции"
+    }
+  },
+  "notes": [
+    "ETF почти достиг цели: 17.5% из 20% (осталось 2.5%)",
+    "МТС восстанавливается: убыток сократился с -281₽ до -227₽",
+    "2 дня подряд портфель в плюсе",
+    "Общая доходность улучшается: -0.42% → -0.28%",
+    "Диверсификация усиливается: ETF +3.8% за день",
+    "Средняя цена ETF улучшилась: 6.28₽ → 6.21₽ (усреднение работает)"
+  ],
+  "next_steps": [
+    "День 15: Рассмотреть дивидендные (Татнефть или НЛМК)",
+    "Или довести ETF до 20% (еще ~650₽)",
+    "Продолжить снижение голубых фишек",
+    "Следить за восстановлением МТС",
+    "Искать возможность добавить компании роста"
+  ],
+  "strategic_assessment": {
+    "portfolio_health": "Стабилизируется и растет",
+    "strategy_execution": "Работает эффективно",
+    "risk_level": "Под контролем",
+    "diversification": "Улучшается",
+    "overall_status": "Уверенный прогресс к целям ✅"
+  }
+}
